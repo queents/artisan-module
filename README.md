@@ -15,6 +15,12 @@ Add Module to `modules_statuses.json` if not exists
 }
 ```
 
+Add Permission to Admin
+
+```bash
+php artisan roles:generate artisan
+```
+
 Publish Assets
 
 ```bash

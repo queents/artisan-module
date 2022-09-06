@@ -1,10 +1,25 @@
 {
-    "name": "nwidart/artisan",
-    "description": "",
+    "name": "queents/artisan-modules",
+    "description": "VILT artisan modules to run artisan commands using GUI",
+    "keywords": [
+        "laravel",
+        "artisan",
+        "artisan GUI",
+        "ui",
+        "vilt-admin",
+        "Vilt stack"
+    ],
+    "type": "laravel-module",
+    "homepage": "https://www.queentechsolutions.net",
+    "license": "MIT",
+    "require": {
+        "queents/vilt": "^1.0"
+    },
     "authors": [
         {
-            "name": "Nicolas Widart",
-            "email": "n.widart@gmail.com"
+            "name": "Fady Mondy",
+            "email": "info@3x1.io",
+            "role": "Senior Fullstack developer"
         }
     ],
     "extra": {

@@ -1,5 +1,5 @@
 {
-    "name": "queents/artisan-modules",
+    "name": "queents/artisan-module",
     "description": "VILT artisan modules to run artisan commands using GUI",
     "keywords": [
         "laravel",

@@ -28,9 +28,21 @@ class ArtisanPage extends Page
 
         return Render::make('Artisan')->module('Artisan')->data([
             "commands" => $commands,
-            "lang" => $this->loadTranslations(),
-            "components" => $this->components(),
-            "table" => $this->table
+            "roles" => [
+                "view" => $this->canView,
+                "viewAny" => $this->canViewAny,
+                "edit" => $this->canEdit,
+                "create" => $this->canCreate,
+                "delete" => $this->canDelete,
+                "deleteAny" => $this->canDeleteAny,
+            ],
+            "render" => [
+                "components" => $this->components(),
+                "lang" => $this->loadTranslations(),
+            ],
+            "list" => [
+                "url" => $this->table
+            ]
         ])->render();
     }
 }

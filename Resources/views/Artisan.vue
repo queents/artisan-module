@@ -246,7 +246,7 @@ onMounted(() => {
                 <ViltForm
                     v-model="modalAction[item.name]"
                     :rows="item.rows"
-                    :errors="modalAction[item.name].errors"
+                    :errors="props.errors"
                 />
             </form>
         </template>
